@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/app/__init__.py
+src/app/core/logging.py
+src/fastapi_demo.egg-info/PKG-INFO
+src/fastapi_demo.egg-info/SOURCES.txt
+src/fastapi_demo.egg-info/dependency_links.txt
+src/fastapi_demo.egg-info/top_level.txt
+src/playground/__init__.py
+src/playground/hello.py
+src/playground/log_demo.py
