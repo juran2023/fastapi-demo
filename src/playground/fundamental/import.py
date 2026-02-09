@@ -1,0 +1,3 @@
+asstring = input()
+
+print(asstring)
