@@ -7,6 +7,13 @@ async def main():
         asyncio.sleep(1),
         asyncio.sleep(1),
         asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
+        asyncio.sleep(1),
     )
 
 
