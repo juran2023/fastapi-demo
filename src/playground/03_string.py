@@ -13,9 +13,9 @@ print("".join(["a", "b", "c"]))
 
 def to_slug(s) -> str:
     try:
-        newS = re.sub("(?<=\w)\s+(?=\w)", "-", s.lower())
+        newS = re.sub(r"(?<=\w)\s+(?=\w)", "-", s.lower())
         # newS = re.sub("\s+", "-", s.lower())
-        return re.sub("[^\w-]", "", newS)
+        return re.sub(r"[^\w-]", "", newS)
 
     except TypeError:
         return None
